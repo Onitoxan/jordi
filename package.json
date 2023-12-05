@@ -1,0 +1,35 @@
+{
+  "name": "jordi",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "cf-export": "contentful space export --config contentful/export-config.json --management-token $(grep CONTENT_MANAGEMENT_TOKEN .env.local | cut -d '=' -f2) --space-id $(grep SPACE_ID .env.local | cut -d '=' -f2)",
+    "cf-generate-types": "cf-content-types-generator contentful/export.json --out src/types/contentful -X"
+  },
+  "dependencies": {
+    "contentful": "^10.6.13",
+    "next": "14.0.3",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@typescript-eslint/eslint-plugin": "^6.13.1",
+    "autoprefixer": "^10.0.1",
+    "contentful-cli": "^3.1.18",
+    "eslint": "^8",
+    "eslint-config-next": "14.0.3",
+    "eslint-config-prettier": "^9.1.0",
+    "husky": "^8.0.3",
+    "postcss": "^8",
+    "prettier": "^3.1.0",
+    "tailwindcss": "^3.3.0",
+    "typescript": "^5"
+  }
+}
