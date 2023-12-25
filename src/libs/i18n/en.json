@@ -1,0 +1,15 @@
+{
+  "head": {
+    "title": "Jordi F. Orozco",
+    "description": "DOP and Camera Man"
+  },
+  "navFooter": {
+    "title": "JORDI F. OROZCO",
+    "sections": {
+      "dop": "D.O.P",
+      "camOp": "Camera Operator",
+      "about": "About"
+    },
+    "footer": "All rights reserved to "
+  }
+}

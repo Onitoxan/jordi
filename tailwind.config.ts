@@ -11,11 +11,18 @@ const config: Config = {
       colors: {
         dop: {
           DEFAULT: "#FFDC00",
+          hover: "#9F8900",
         },
         camOp: {
           DEFAULT: "#B762EB",
+          hover: "#743D96",
+        },
+        neutral: {
+          DEFAULT: "#FFFFFF",
+          hover: "#8B8B8B",
         },
       },
+      fontSize: {},
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":

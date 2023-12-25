@@ -11,12 +11,15 @@
     "cf-generate-types": "cf-content-types-generator contentful/export.json --out src/types/contentful -X"
   },
   "dependencies": {
+    "@formatjs/intl-localematcher": "^0.5.2",
     "contentful": "^10.6.13",
+    "negotiator": "^0.6.3",
     "next": "14.0.3",
     "react": "^18",
     "react-dom": "^18"
   },
   "devDependencies": {
+    "@types/negotiator": "^0.6.3",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
